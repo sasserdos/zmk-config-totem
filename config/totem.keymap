@@ -68,6 +68,16 @@
             bindings = <&kp MINUS>;
             key-positions = <16 27>;
         };
+
+        leftparen {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 17>;
+        };
+
+        rightparen {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
@@ -112,7 +122,7 @@
               &kp Q  &kp W       &kp F             &kp P               &kp B    &kp J    &kp L                &kp U              &kp Y       &kp SEMI
               &kp A  &mt LALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp G    &kp M    &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RALT I  &kp O
 &kp LEFT_WIN  &kp Z  &kp X       &kp C             &kp D               &kp V    &kp K    &kp H                &kp COMMA          &kp DOT     &kp FSLH  &kp BSLH
-                                 &kp TAB           &lt 4 BACKSPACE     &mo 1    &kp RET  &kp SPACE            &mo 2
+                                 &kp TAB           &lt 1 BACKSPACE     &mo 4    &kp RET  &kp SPACE            &mo 2
             >;
         };
 
