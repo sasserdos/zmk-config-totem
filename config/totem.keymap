@@ -71,12 +71,12 @@
 
         leftparen {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 17>;
+            key-positions = <6 7>;
         };
 
         rightparen {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <17 18>;
+            key-positions = <7 8>;
         };
     };
 
@@ -119,10 +119,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp Q  &kp W       &kp F             &kp P               &kp B       &kp J    &kp L                &kp U              &kp Y       &kp SEMI
-              &kp A  &mt LALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp G       &kp M    &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RALT I  &kp O
-&kp LEFT_WIN  &kp Z  &kp X       &kp C             &kp D               &kp V       &kp K    &kp H                &kp COMMA          &kp DOT     &kp FSLH  &kp BSLH
-                                 &lt 4 TAB         &lt 1 BACKSPACE     &kp CAPS    &kp RET  &kp SPACE            &mo 2
+                &kp Q  &kp W       &kp F             &kp P               &kp B           &kp J    &kp L                &kp U              &kp Y       &kp SEMI
+                &kp A  &mt LALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp G           &kp M    &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RALT I  &kp O
+&kp LEFT_SHIFT  &kp Z  &kp X       &kp C             &kp D               &kp V           &kp K    &kp H                &kp COMMA          &kp DOT     &kp FSLH  &kp BSLH
+                                   &lt 4 TAB         &lt 1 BACKSPACE     &kp LEFT_GUI    &kp RET  &kp SPACE            &mo 2
             >;
         };
 
